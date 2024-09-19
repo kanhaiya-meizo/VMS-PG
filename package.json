@@ -5,7 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Ashish Mehra",
   "license": "ISC",
@@ -13,6 +15,11 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "express-router": "^0.0.1",
-    "pg": "^8.13.0"
+    "mongoose": "^8.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.6",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
   }
 }

@@ -5,4 +5,13 @@ export default class VisitorController{
     constructor(){
         this.visitorRepository = new VisitorRepository();
     }
+
+    async createVisitor(req, res){
+        // write your code logic here
+        try {
+            const res = await this.visitorRepository.addVisitorData(res);
+        } catch (error) {
+        }
+    }
+
 }
